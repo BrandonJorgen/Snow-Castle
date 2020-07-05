@@ -31,25 +31,25 @@ maps
 		}
 		defaultfloortexture = "OSNOWB01";
 		defaultceiltexture = "OSKY47";
-		defaulttoptexture = "OBRCKA23";
-		defaultwalltexture = "OBRCKA23";
-		defaultbottomtexture = "OBRCKA23";
+		defaulttoptexture = "STARTAN2";
+		defaultwalltexture = "STARTAN2";
+		defaultbottomtexture = "STARTAN2";
 		custombrightness = 196;
 		customfloorheight = 0;
 		customceilheight = 128;
-		overridefloortexture = false;
-		overrideceiltexture = false;
+		overridefloortexture = true;
+		overrideceiltexture = true;
 		overridetoptexture = false;
-		overridemiddletexture = false;
+		overridemiddletexture = true;
 		overridebottomtexture = false;
 		overridefloorheight = false;
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = false;
 		useresourcesinreadonlymode = false;
-		viewpositionx = -1113.268f;
-		viewpositiony = 1818.826f;
-		viewscale = 0.1750638f;
+		viewpositionx = -5019.24f;
+		viewpositiony = 2465.734f;
+		viewscale = 0.280212f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -60,7 +60,19 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 256f;
+			gridsize = 32f;
+		}
+		
+		plugins
+		{
+			
+			stairsectorbuilder
+			{
+				
+				prefabs
+				{
+				}
+			}
 		}
 		
 		fieldtypes
@@ -69,6 +81,11 @@ maps
 			sidedef
 			{
 				offsetx_mid = 1;
+				offsety_mid = 1;
+				offsetx_bottom = 1;
+				offsety_bottom = 1;
+				offsetx_top = 1;
+				offsety_top = 1;
 			}
 			
 			sector
@@ -78,7 +95,7 @@ maps
 				yscaleceiling = 1;
 				xpanningceiling = 1;
 				ypanningceiling = 1;
-				rotationfloor = 17;
+				rotationfloor = 1;
 				xscalefloor = 1;
 				yscalefloor = 1;
 				xpanningfloor = 1;
