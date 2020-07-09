@@ -14,7 +14,7 @@ maps
 			resource0
 			{
 				type = 0;
-				location = "H:\\Users\\Brandon\\Downloads\\OTEX v0.9\\otex.wad";
+				location = "H:\\Program Files (x86)\\Steam\\SteamApps\\common\\Doom 2\\base\\DOOM2.WAD";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -23,7 +23,7 @@ maps
 			resource1
 			{
 				type = 0;
-				location = "H:\\Program Files (x86)\\Steam\\SteamApps\\common\\Doom 2\\base\\DOOM2.WAD";
+				location = "H:\\Firefox Downloads\\otex_1_1\\OTEX_1.1.WAD";
 				option1 = 0;
 				option2 = 0;
 				notfortesting = 0;
@@ -47,9 +47,9 @@ maps
 		overridebrightness = false;
 		uselongtexturenames = false;
 		useresourcesinreadonlymode = false;
-		viewpositionx = -3516.837f;
-		viewpositiony = 2180.555f;
-		viewscale = 0.2802096f;
+		viewpositionx = -3035.468f;
+		viewpositiony = 3391.034f;
+		viewscale = 0.5222111f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -80,12 +80,14 @@ maps
 			
 			sidedef
 			{
+				offsetx_top = 1;
+				offsety_top = 1;
 				offsetx_mid = 1;
 				offsety_mid = 1;
 				offsetx_bottom = 1;
 				offsety_bottom = 1;
-				offsetx_top = 1;
-				offsety_top = 1;
+				scalex_bottom = 1;
+				scaley_bottom = 1;
 			}
 			
 			sector
@@ -95,7 +97,7 @@ maps
 				yscaleceiling = 1;
 				xpanningceiling = 1;
 				ypanningceiling = 1;
-				rotationfloor = 1;
+				rotationfloor = 17;
 				xscalefloor = 1;
 				yscalefloor = 1;
 				xpanningfloor = 1;
