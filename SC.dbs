@@ -28,6 +28,15 @@ maps
 				option2 = 0;
 				notfortesting = 0;
 			}
+			
+			resource2
+			{
+				type = 2;
+				location = "H:\\Firefox Downloads\\StainedGlassWindowsTex.pk3";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
 		}
 		defaultfloortexture = "OSNOWB01";
 		defaultceiltexture = "OSKY47";
@@ -47,9 +56,9 @@ maps
 		overridebrightness = false;
 		uselongtexturenames = false;
 		useresourcesinreadonlymode = false;
-		viewpositionx = -1208f;
-		viewpositiony = 2410.07f;
-		viewscale = 0.1432126f;
+		viewpositionx = -4011.136f;
+		viewpositiony = 1919.556f;
+		viewscale = 0.314638f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -88,6 +97,7 @@ maps
 				offsety_top = 1;
 				scaley_bottom = 1;
 				scalex_bottom = 1;
+				light = 0;
 			}
 			
 			sector
