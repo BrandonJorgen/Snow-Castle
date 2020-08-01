@@ -56,9 +56,9 @@ maps
 		overridebrightness = false;
 		uselongtexturenames = false;
 		useresourcesinreadonlymode = false;
-		viewpositionx = -2638.48f;
-		viewpositiony = 187.6816f;
-		viewscale = 2.285769f;
+		viewpositionx = -3653.513f;
+		viewpositiony = 2332.34f;
+		viewscale = 2.285755f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -69,7 +69,7 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 4f;
+			gridsize = 16f;
 		}
 		
 		plugins
@@ -80,39 +80,6 @@ maps
 				
 				prefabs
 				{
-					
-					prefab1
-					{
-						name = "[Previous]";
-						numberofsectors = 7;
-						outervertexmultiplier = 1;
-						innervertexmultiplier = 1;
-						stairtype = 0;
-						sectordepth = 32;
-						spacing = 0;
-						frontside = true;
-						singlesectors = false;
-						singledirection = false;
-						distinctbaseheights = false;
-						flipping = 0;
-						numberofcontrolpoints = 1;
-						applyfloormod = true;
-						floormod = 0;
-						applyceilingmod = true;
-						ceilingmod = 0;
-						applyfloortexture = false;
-						floortexture = "";
-						applyceilingtexture = false;
-						ceilingtexture = "";
-						applyuppertexture = true;
-						uppertexture = "-";
-						upperunpegged = true;
-						applymiddletexture = false;
-						middletexture = "-";
-						applylowertexture = true;
-						lowertexture = "OBRCKA03";
-						lowerunpegged = true;
-					}
 				}
 			}
 		}
@@ -140,16 +107,17 @@ maps
 			
 			sector
 			{
-				rotationceiling = 1;
+				rotationceiling = 17;
 				xpanningceiling = 1;
 				ypanningceiling = 1;
-				rotationfloor = 1;
+				rotationfloor = 17;
 				xscalefloor = 1;
 				yscalefloor = 1;
 				xpanningfloor = 1;
 				ypanningfloor = 1;
 				xscaleceiling = 1;
 				yscaleceiling = 1;
+				gravity = 1;
 			}
 		}
 	}
