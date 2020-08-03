@@ -56,9 +56,9 @@ maps
 		overridebrightness = false;
 		uselongtexturenames = false;
 		useresourcesinreadonlymode = false;
-		viewpositionx = -3653.513f;
-		viewpositiony = 2332.34f;
-		viewscale = 2.285755f;
+		viewpositionx = -4773.141f;
+		viewpositiony = 1984.141f;
+		viewscale = 0.1175081f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -69,7 +69,7 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 16f;
+			gridsize = 4f;
 		}
 		
 		plugins
@@ -100,8 +100,8 @@ maps
 				offsetx_bottom = 1;
 				offsetx_top = 1;
 				offsety_top = 1;
-				scalex_bottom = 1;
 				scaley_bottom = 1;
+				scalex_bottom = 1;
 				light = 0;
 			}
 			
