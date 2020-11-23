@@ -56,9 +56,9 @@ maps
 		overridebrightness = false;
 		uselongtexturenames = false;
 		useresourcesinreadonlymode = false;
-		viewpositionx = -6662.861f;
-		viewpositiony = 1936.76f;
-		viewscale = 0.1275419f;
+		viewpositionx = -4526.714f;
+		viewpositiony = 1292.715f;
+		viewscale = 0.4735578f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -69,7 +69,7 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 8;
+			gridsize = 4;
 			gridrotate = 0;
 			gridoriginx = 0;
 			gridoriginy = 0;
@@ -87,7 +87,7 @@ maps
 					prefab1
 					{
 						name = "[Previous]";
-						numberofsectors = 2;
+						numberofsectors = 1;
 						outervertexmultiplier = 1;
 						innervertexmultiplier = 1;
 						stairtype = 0;
@@ -114,7 +114,7 @@ maps
 						applymiddletexture = false;
 						middletexture = "-";
 						applylowertexture = true;
-						lowertexture = "STARTAN2";
+						lowertexture = "OBRCKA23";
 						lowerunpegged = true;
 					}
 				}
@@ -157,10 +157,10 @@ maps
 			
 			sector
 			{
-				rotationfloor = 17;
+				rotationfloor = 1;
 				xpanningceiling = 1;
 				ypanningceiling = 1;
-				rotationceiling = 17;
+				rotationceiling = 1;
 				xpanningfloor = 1;
 				ypanningfloor = 1;
 				yscalefloor = 1;
